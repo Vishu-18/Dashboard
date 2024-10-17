@@ -1,0 +1,49 @@
+.custom{
+  display: flex;
+  align-items: center;
+  margin-left: 800px;
+  
+.cardcss{
+  display: inline-block;
+  margin-left: 0px;
+  padding-bottom: 40px;
+  background-color: rgb(240, 228, 252);
+}
+
+.searchbox{
+  position: absolute;
+
+  top: 105px;
+  left: 800px;
+
+
+}
+.cardarray{
+
+  position: absolute;
+  left: 340px;
+  margin-top:135px ;
+  margin-bottom: 25px;
+  width: 1000px;
+  height:600px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  column-gap: 40px;
+  padding: 10px;
+}
+}
+  
+@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+.Logo{
+  position: absolute;
+  top:20px;
+  left: 780px;
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 300;
+  color: #0ccac4;
+}

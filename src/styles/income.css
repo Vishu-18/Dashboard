@@ -1,0 +1,40 @@
+.income{
+    position: absolute;
+    width: 600px;
+    margin-left: 280px;
+    margin-top: 20px; 
+    padding: 0px 20px;
+    padding-bottom: 10px;
+
+}
+.piebox{
+    background: rgb(255, 255, 255);
+    width: 800px;
+    margin-left: 90px;
+    margin-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    height: 600px;
+    padding-bottom: 105px;
+}
+
+
+.piechartt h2{
+    color: rgb(0, 0, 0);
+    position:relative;
+    left: 50px;
+    top:50px
+    
+}
+.statts{
+    background: rgb(255, 255, 255);
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    height: 500px;
+    padding-bottom: 105px;
+}

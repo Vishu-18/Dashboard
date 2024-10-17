@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+.container{
+    position:fixed;
+    width: 800px;
+    height: 600px;
+    padding-left: 120px;
+    padding-top: 100px;
+    top:55px;
+    left:500px;
+    font-family: Poppins;
+    background: #000000;
+    line-height: 26px;
+    margin: 0;
+}
+
+.contactUs {
+    position: fixed;
+    top:65px;
+    left:750px;
+    color:  #21ce99;
+  
+}
+
+
+
+form {
+  margin-top: 20px;
+  background: #040d14;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+  background-color: #040d14;
+  box-shadow: 0 0 0 2px  #21ce99;
+  border: none;
+  color:  #21ce99;
+}
+
+.formInput:focus {
+  background-color: #040d14;
+  outline: none;
+  box-shadow: 0 0 0 2px  #21ce99;
+  color: #21ce99;
+}
+
+.formInput::placeholder {
+  color:  #21ce99;
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: #21ce99;
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 10px;
+  padding: 0;
+}
+
+#notifyToast {
+  color:#21ce99;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color:  #21ce99;
+}
+
+.submit-btn {
+  background-color: #040d14;
+  color:  #21ce99 !important;
+  padding: 15px 50px;
+  border: 2px solid  #21ce99;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.submit-btn:hover {
+  background-color:  #21ce99;
+  color: #040d14 !important;
+  border: 2px solid  #21ce99;
+}
+
+.submit-btn:disabled:hover {
+  background-color: #040d14;
+  color:  #21ce99 !important;
+  cursor: wait;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
