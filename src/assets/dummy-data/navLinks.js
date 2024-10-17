@@ -11,6 +11,12 @@ const navLinks = [
         display: "Product",
     },
     {
+        path: "/promote",
+        icon: "ri-global-line",
+        arrow:"ri-arrow-drop-right-line",
+        display: "Promote",
+    },
+    {
         path: "/customers",
         icon: "ri-folder-user-fill",
         arrow:"ri-arrow-drop-right-line",
@@ -22,12 +28,7 @@ const navLinks = [
         arrow:"ri-arrow-drop-right-line",
         display: "Income",
     },
-    {
-        path: "/promote",
-        icon: "ri-global-line",
-        arrow:"ri-arrow-drop-right-line",
-        display: "Promote",
-    },
+   
     {
         path: "/help",
         icon: "ri-questionnaire-line",
