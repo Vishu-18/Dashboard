@@ -4,14 +4,17 @@ import { AiOutlineUser } from "react-icons/ai";
 import { IoIosArrowDown } from "react-icons/io";
 import { NavLink } from "react-router-dom";
 import navLinks from "../../assets/dummy-data/navLinks";
+import SidebarIcon from './SidebarIcon'
 
 import "./sidebar.css";
 
 const Sidebar = () => {
   return (
+    <>
+    <SidebarIcon/>
     <div className="sidebar">
       <span className="sidebar_top">
-        <TbHexagonLetterO size={30} />
+        <TbHexagonLetterO  />
         <h2>Dashboard</h2>
       </span>
       <div className="sidebar_content">
@@ -35,21 +38,23 @@ const Sidebar = () => {
               </li>
               
             ))}
-            <div className="profile">
+                
+          </ul>
+          <div className="profile" >
                     <div ><AiOutlineUser className="user_icon"/></div>
-                    <div className="user_det" t>
+                    <div className="user_detail" t>
                       <h5>Avano</h5>
                       <h6>Project Manager</h6>
-                      <span ><IoIosArrowDown className="profarrow"/></span>
-                    
                     </div>
-                </div> 
-          </ul>
+                    <div ><IoIosArrowDown className="profarrow"/></div>
+          </div> 
         </div>
         
       </div>
     </div>
+    </>
   );
 };
 
+    
 export default Sidebar;

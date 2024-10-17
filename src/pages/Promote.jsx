@@ -16,19 +16,14 @@ const Promote = () => {
             <h2>2022 Mercedes Benz</h2>
             <img src={sellCar} alt="" />
           </div>
-
-         
-
-            <div className="tracking__history">
+          <div className="tracking__history">
               <h3>Tracking History</h3>
               <TrackingChart className="trackingchart"/>
-            </div>
           </div>
-
-          <div className="offer__wrapper">
+        </div>
+        <div className="offer__wrapper">
             <div className="offer__top">
               <h2 className="sell__car-title">Offers</h2>
-
               <div className="filter__widget-01">
                 <select>
                   <option value="toyota">Toyota</option>
@@ -148,7 +143,11 @@ const Promote = () => {
             </div>
           </div>
         </div>
+
+
+          
       </div>
+      
     </div>
   );
 };

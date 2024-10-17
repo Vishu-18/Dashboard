@@ -1,39 +1,36 @@
 .top__nav {
-    position: absolute;
-    top: 0px;
-    left: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     z-index: 999;
+   
 }
-
-.top__nav h3{
-  margin-top: 12px;
+.greet{
+  font-weight: 500;
   
 }
 
+
 .top__nav-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0px 30px;
+ 
+ 
+  padding: 0px 10px;
 }
 
   
 .search__box {
-  position: absolute;
-  top: 10px;
-  left: 990px;
+  width: 15vw;
   height: 70px;
-  line-height: 70px;
   z-index: 999;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 20px;
+  justify-content:space-around ;
+  padding: 0px 1vw;
   background: #ffffff !important;
   border-radius: 5px;
   cursor: pointer;
-  height: 35px;
-  width: 180px;
+ 
+  /* width: 180px; */
 }
 
 .search__box input {

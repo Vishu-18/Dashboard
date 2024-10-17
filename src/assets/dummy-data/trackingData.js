@@ -1,14 +1,5 @@
 const trackingData = [
-  {
-    name: "Sat",
-    km: 10,
-    mt: 5,
-  },
-  {
-    name: "Sun",
-    km: 8,
-    mt: 10,
-  },
+ 
   {
     name: "Mon",
     km: 18,
@@ -34,6 +25,16 @@ const trackingData = [
     km: 33,
     mt: 35,
   },
+  {
+    name: "Sat",
+    km: 10,
+    mt: 5,
+  },
+  {
+    name: "Sun",
+    km: 8,
+    mt: 10,
+  }
 ];
 
 export default trackingData;

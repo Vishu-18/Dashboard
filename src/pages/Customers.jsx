@@ -5,7 +5,7 @@ import "../styles/customer.css";
 
 const Customers = () => {
   return (
-    <div custom>
+    <div className='custom'>
       <User/>
     </div>
   )

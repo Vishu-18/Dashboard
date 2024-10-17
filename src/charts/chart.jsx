@@ -36,12 +36,12 @@ const renderActiveShape = (props) => {
 
   return (
     <g>
-      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill}  fontSize={30}>
+      <text x={cx} y={cy} dy={8} textAnchor="middle" fill={fill}  fontSize={15}>
         {payload.name}
       </text>
       <Sector
-        cx={cx+15}
-        cy={cy+15}
+        cx={cx+5}
+        cy={cy+10}
         innerRadius={innerRadius}
         outerRadius={outerRadius}
         startAngle={startAngle}
@@ -53,8 +53,8 @@ const renderActiveShape = (props) => {
         cy={cy}
         startAngle={startAngle}
         endAngle={endAngle}
-        innerRadius={outerRadius + 6}
-        outerRadius={outerRadius + 5}
+        innerRadius={outerRadius +2}
+        outerRadius={outerRadius + 2}
         fill={fill}
       />
       <path
@@ -64,22 +64,12 @@ const renderActiveShape = (props) => {
       />
       <circle cx={ex} cy={ey} r={2} fill={fill} stroke="none" />
       <text
-        x={ex + (cos >= 0 ? 1 : -1) * 42}
-        y={ey +20}
-        fontSize={20}
-       
+        x={ex}
+        y={ey+2}
+        fontSize={15}
         fill="#333"
       >{`Profit $${value}`}</text>
-      <text
-        x={ex + (cos >= 0 ? 1 : -1) * 12}
-        y={ey}
-        dy={38}
-        textAnchor={textAnchor}
-        fontSize={20}
-        fill="#999"
-      >
-        {`(Share ${(percent * 100).toFixed(2)}%)`}
-      </text>
+      
     </g>
   );
 };
@@ -94,15 +84,15 @@ export default function PieChartt() {
   );
 
   return (
-    <PieChart width={800} height={600}>
+    <PieChart width={500} height={400}>
       <Pie
         activeIndex={activeIndex}
         activeShape={renderActiveShape}
         data={data}
-        cx={330}
-        cy={260}
-        innerRadius={130}
-        outerRadius={190}
+        cx={225}
+        cy={160}
+        innerRadius={75}
+        outerRadius={105}
         fill="#8884d8"
         dataKey="value"
         onMouseEnter={onPieEnter}

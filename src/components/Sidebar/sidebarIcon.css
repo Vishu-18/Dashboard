@@ -1,0 +1,25 @@
+.sidebarIcon{
+    position: fixed;
+    color: beige;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    margin: 0;    
+    background-color:#040440;
+    height: 100vh;
+    display: flex;
+
+}
+@media (max-width:1000px) {
+   
+    .sidebarIcon{
+      display: flex;
+      padding: 0;
+      transition: 0.2s
+    }
+    .main_sidebar{
+      width: 10vw;
+    }
+
+  }

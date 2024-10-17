@@ -1,7 +1,7 @@
 const earningStatics = [
     {
       month: "Jan",
-      earning: 6000,
+      earning: 5000,
     },
     {
       month: "Feb",
@@ -28,8 +28,8 @@ const earningStatics = [
       earning: 5000,
     },
     {
-      month: "Sept",
-      earning: 1800,
+      month: "Sep",
+      earning: 2800,
     },
     {
       month: "Oct",

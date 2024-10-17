@@ -5,17 +5,18 @@ const RecommendCarCard = (props) => {
   return (
     <div className="recommend__car-card">
       <div className="recommend__car-img">
-        <img src={imgUrl} alt=""  />
+        
+        <figure>
+        <img src={imgUrl} alt=""  />        
+        
+        <figcaption><h4>{carName}</h4></figcaption>
+      </figure>
+      
       </div>
-      <div className="recommend__car-bottom">
-        <h4>{carName}</h4>
-        <p>Lorem ipsum dolor luptas minus.</p>
-      </div>
-      <div className="carDetails">
         <h4 className="stock">{stock}</h4>
         <h4 className="price">{price}</h4> 
         <h4 className="totalsales">{totalSales}</h4>
-      </div>
+
     </div>
   );
 };

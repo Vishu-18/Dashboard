@@ -7,11 +7,11 @@ import earningStaticsData from "../assets/dummy-data/earningStastics";
 
 const earnChart = () => {
   return (
-    <ResponsiveContainer width="99%" position='fixed'>
+    <ResponsiveContainer >
       <BarChart className="barChart" data={earningStaticsData}>
         <XAxis  dataKey="month" stroke="#000000"  />
         <Bar className="barr" dataKey="earning" stroke="#f2efff" 
-       fill="#f2efff" barSize={50} radius={18}/>
+       fill="#f2efff" barSize={40} radius={18}/>
 
         
       </BarChart>

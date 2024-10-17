@@ -12,7 +12,7 @@ import {
 
 const TrackingChart = () => {
   return (
-    <ResponsiveContainer width="99%" >
+    <ResponsiveContainer width="98%" >
       <LineChart>
         <CartesianGrid strokeDasharray="0" stroke="#b7ffe913" />
         <XAxis dataKey="name" stroke="#ddd" />

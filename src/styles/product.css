@@ -1,9 +1,8 @@
 .bookings {
-  margin-top: 0px;
-  margin-left: 260px;
-
-  padding: 0px 10px;
-  padding-bottom: 50px;
+  display: flex;  
+  width: 82vw;
+  padding: 0px 20px;
+  
 }
 
 .booking__title {
@@ -33,6 +32,8 @@
 }
 
 .car__item {
+  width: 320px;
+  height: 320px;
   padding: 20px;
   border-radius: 5px;
   background: var(--primary-color);
@@ -42,7 +43,7 @@
 .car__item-tile {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .car__item-tile h3 {
@@ -93,8 +94,12 @@
 }
 
 .booking__car-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+  align-items: center;
+
   column-gap: 2rem;
   row-gap: 2rem;
 }
@@ -120,4 +125,72 @@
 
 .car__item:nth-child(4) .car__img img {
   width: 85%;
+}
+
+
+@media (min-width:746px) and (max-width:872px){
+  .car__item {
+    width:270px;
+    height: 300px;
+   
+  }
+  .car__img {
+    width: 180px;
+  }
+
+  
+
+}
+
+@media (min-width:625px) and (max-width:746px){
+  .car__item {
+    width: 220px;
+    height: 250px;
+  }
+  .car__item-bottom{
+    display: none;
+  
+   
+  }
+}
+@media (min-width:552px) and (max-width:625px){
+  .car__item {
+    width: 190px;
+    height: 250px;
+  }
+  .car__item-bottom{
+    display: none;
+    
+  }
+  .car__img {
+    width: 160px;
+  }
+ 
+}
+@media  (max-width:552px){
+  .car__item {
+    width: 220px;
+    height: 250px;
+    transition: .2s;
+  }
+  .car__item-bottom{
+    display: none;
+    
+  }
+  .car__img {
+    width: 190px;
+  }
+  .booking__car-list {
+  
+    display: flex;
+   justify-content: center;
+   
+    align-items: center;
+ 
+    
+  
+    column-gap: 2rem;
+    row-gap: 2rem;
+  }
+ 
 }

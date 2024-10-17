@@ -4,11 +4,11 @@ import ContactForm from '../components/contactForm/Contact-form'
 const Help = () => {
   return (
     <div className='container'>
-      <div><h1 className='contactUs'>Contact Us</h1>
+      
         <ContactForm />
       </div>
         
-    </div>    
+   
   )
 }
 

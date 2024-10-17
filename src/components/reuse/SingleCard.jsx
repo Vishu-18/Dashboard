@@ -10,8 +10,8 @@ const SingleCard = (props) => {
       </span>
       <div className="card__content">
         <p>{title}</p>
-        <div className="totprof" ><h2>${totalProfit}k</h2></div>
-        <div className="percprof"><h5>{profit}</h5> <h6>{percentProfit}</h6></div>
+        <div className="total_prof" ><h2>${totalProfit}k</h2></div>
+        <div className="perc_prof">{profit}{percentProfit}</div>
         
       </div>
       
