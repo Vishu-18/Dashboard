@@ -2,9 +2,9 @@ import React from 'react';
 import { Routes, Route, Navigate} from "react-router-dom";
 import Dashboard from '../pages/Dashboard';
 import Product from '../pages/Product';
+import Promote from '../pages/Promote';
 import Customers from '../pages/Customers';
 import Income from '../pages/Income';
-import Promote from '../pages/Promote';
 import Help from '../pages/Help';
 const Router = () => {
   return (
