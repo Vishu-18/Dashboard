@@ -11,7 +11,7 @@ const earnChart = () => {
       <BarChart className="barChart" data={earningStaticsData}>
         <XAxis  dataKey="month" stroke="#000000"  />
         <Bar className="barr" dataKey="earning" stroke="#f2efff" 
-       fill="#f2efff" barSize={40} radius={18}/>
+       fill="#7d7b87" barSize={40} radius={18}/>
 
         
       </BarChart>
